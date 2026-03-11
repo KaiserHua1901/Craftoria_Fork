@@ -1,3 +1,214 @@
+# Craftoria | v1.29.0
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.29.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.29.0.md)_
+
+### Changes/Improvements ⭐
+
+* Added scylla boss entry to bosses quest chapter `AK`
+* Disabled name-tags on dropped items `AK`
+* Clean up mekanism quest chapter `AK`
+* Buff all cataclysm bosses, gear & weapons `AK`
+* Removed infinity souls cell quest `AK`
+* Recipe for converting lower tier JDT goos into higher tier ones in Ooze Lab `Phantom`
+* New textures for custom MI machines `Phantom`
+* Remove MI ores from Mekanism ore processing `Phantom`
+
+### Added Mods ✅
+
+* [Leaderboards](https://curseforge.com/projects/1367888)
+* [MekaJadeUpgrades (Mekanism addon)](https://curseforge.com/projects/1400118)
+* [Re:Animal](https://curseforge.com/projects/1387943)
+* [Ribbits](https://curseforge.com/projects/622967)
+
+### Removed Mods ❌
+
+* [Mowzie's Mobs](https://curseforge.com/projects/250498)
+
+### Bug Fixes 🪲
+
+* Bogged model `AK`
+* Fixed inventory updates causing more than usual amounts of lag `Phantom`
+---
+# Craftoria | v1.28.0
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.28.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.28.0.md)_
+
+### Changes/Improvements ⭐
+
+* Remove bronze entries of rubinated nether `AK`
+* Added reversable recipes for dyed ae2 cables, smart and covered `Inno`
+* Disabled ftbchunks death waypoints, xaeros' already has that `Phantom`
+
+### Added Mods ✅
+
+* [Entity Culling](https://curseforge.com/projects/448233)
+
+### Removed Mods ❌
+
+* [Industrial Foregoing Souls](https://curseforge.com/projects/904394) (Balancing Reasons)
+* [Soulplied Energistics](https://curseforge.com/projects/1143614) (Balancing Reasons)
+
+### Bug Fixes 🪲
+
+* Ender dragon model `AK`
+* Fishing quest trophies using incorrect NBT `AK`
+---
+
+# Craftoria | v1.27.0
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.27.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.27.0.md)_
+
+## DISCLAIMER: New map mod who dis? Be sure to backup your worlds before updating!
+
+### Changes/Improvements ⭐
+
+* Disable sorting through inv essentials `AK`
+
+### Added Mods ✅
+
+* [FTB Chunks x Xaero's Compat](https://curseforge.com/projects/1357724)
+* [Xaero's Maps x Waystones](https://curseforge.com/projects/1340197)
+* [Xaero's Minimap](https://curseforge.com/projects/263420)
+* [Xaero's World Map](https://curseforge.com/projects/317780)
+
+### Bug Fixes 🪲
+
+* Crashing using fish locator & rod `AK`
+* Iron's Spells 'n Spellbooks cooldowns not showing correctly `AK`
+* Fishing trophy quests completable with any trophy `AK`
+* Invisible names above players `AK`
+* Missing ores in mining dimension `AK`
+---
+
+# Craftoria | v1.26.0
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.26.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.26.0.md)_
+
+### Changes/Improvements ⭐
+
+* Allow any flowers in supplementaries flower boxes `AK`
+* Unify rubies `AK`
+
+### Removed Mods ❌
+
+* [Alshanex's Familiars](https://curseforge.com/projects/1171602)
+* [Apothic Compats](https://curseforge.com/projects/1188699)
+* [CoroUtil](https://curseforge.com/projects/237749)
+* [FamiliarsLib](https://curseforge.com/projects/1316458)
+* [Inline](https://curseforge.com/projects/971167)
+* [Potion Icons](https://curseforge.com/projects/1272135)
+* [What Are They Up To (Watut)](https://curseforge.com/projects/945479)
+
+### Bug Fixes 🪲
+
+* Incorrect task for completionist fishing quest `AK`
+* Trophies crashing on server when they had null data (for real this time) `AK`
+---
+
+# Craftoria | v1.25.3
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.25.3.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.25.3.md)_
+
+### Removed Mods ❌
+
+* [Toast Control](https://curseforge.com/projects/271740)
+
+### Bug Fixes 🪲
+
+* Advancements not showing up correctly `AK`
+* Water flickering, hopefully `AK`
+---
+# Craftoria | v1.25.2
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.25.2.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.25.2.md)_
+
+### Changes/Improvements ⭐
+
+* Change to require no tool to ultimine `AK`
+
+### Bug Fixes 🪲
+
+* Excessive saturation sync packets from animals `AK`
+* Missing textures for MI quarries `AK`
+* Client-side crash on servers when breaking placed trophies `AK`
+* Jade ui disappearing after an achievement `AK`
+* Recipe conflict for grapevine stem `AK`
+---
+# Craftoria | v1.25.1
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.25.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.25.1.md)_
+
+### Changes/Improvements ⭐
+
+* Balance Just Dire Things fluid fuel values ``James103``
+* Make Bigger AE2 advanced cell housing recipes more consistent ``James103``
+
+### Removed Mods ❌
+
+* [Advancement Plaques](https://curseforge.com/projects/499826)
+* [Item Zoom](https://curseforge.com/projects/261725)
+
+### Bug Fixes 🪲
+
+* Fixed server not downloading mods correctly ``AK``
+* Fixed comp shaders not showing up in list ``AK``
+---
+
+# Craftoria | v1.25.0
+
+_Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.25.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.25.0.md)_
+
+### Changes/Improvements ⭐
+
+* Change textures of lootr chests `AK`
+* Remove transportation quest chapter `AK`
+* Redesign Gadgets & Personal Storage quest chapters `AK`
+* Redesigned completionist quest chapter `AK`
+* Ultimine now requires a tool `AK`
+* Menril logs (normal and enriched) can now be ultimined together `AK`
+* Retextured enchantment level text `AK`
+* Retextured/modeled all vanilla animals `AK`
+* Add fishing quest chapter requirement for Completionist `AK`
+* Lowered floatingItemScale from 1.4 to 1.2 `AK`
+* Add fishing quest chapter `AK`
+
+### Added Mods ✅
+
+* [\[Let's Do Addon\] Compat](https://curseforge.com/projects/992333)
+* [\[Let's Do Addon\] EMI Compat](https://curseforge.com/projects/1063821)
+* [\[Let's Do\] API ](https://curseforge.com/projects/864599)
+* [\[Let's Do\] Beachparty](https://curseforge.com/projects/858691)
+* [\[Let's Do\] Brewery - Farm&Charm Compat](https://curseforge.com/projects/1038106)
+* [\[Let's Do\] Farm & Charm](https://curseforge.com/projects/1038103)
+* [\[Let's Do\] HerbalBrews](https://curseforge.com/projects/951221)
+* [\[Let's Do\] Vinery](https://curseforge.com/projects/704465)
+* [Achievements Optimizer](https://curseforge.com/projects/912788)
+* [Apothic Compats](https://curseforge.com/projects/1188699)
+* [Fancy Toasts | Better Advancements](https://curseforge.com/projects/1326436)
+* [ItemZoom](https://curseforge.com/projects/261725)
+* [LambDynamicLights](https://curseforge.com/projects/393442)
+* [MekaGenJei (Mekanism Generator addon)](https://curseforge.com/projects/1347827)
+* [Plushie Buddies](https://curseforge.com/projects/990265)
+* [Rubinated Nether](https://curseforge.com/projects/1096362)
+* [Seasonal Let's Do](https://curseforge.com/projects/1302716)
+* [Starcatcher](https://curseforge.com/projects/1357603)
+* [YUNG's Cave Biomes (Forge/NeoForge)](https://curseforge.com/projects/1111586)
+
+### Added Resource Packs 🎨
+
+* [Construction Sticks Grips](https://curseforge.com/projects/1374261)
+* [Excalibur | Aquaculture 2](https://curseforge.com/projects/1143307)
+* [Icons - Numerals](https://curseforge.com/projects/1380493)
+
+### Removed Mods ❌
+
+* [Create: Ender Link](https://curseforge.com/projects/1233526)
+
+### Bug Fixes 🪲
+
+* SGC rice crop dropping the wrong output of rice `AK`
+* Aluminum plate bypass recipe `AK`
+---
 # Craftoria | v1.24.1
 
 _Neoforge_ 21.1.209 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.24.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.24.1.md)_

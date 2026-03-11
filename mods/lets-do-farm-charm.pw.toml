@@ -1,0 +1,13 @@
+name = "[Let's Do] Farm & Charm"
+filename = "letsdo-farm_and_charm-neoforge-1.1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92811b785364bd9ea74eb64fe92f647e48ac5ca6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7657773
+project-id = 1038103

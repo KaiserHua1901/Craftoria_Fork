@@ -54,18 +54,17 @@ ServerEvents.recipes(e => {
     P: 'minecraft:paper',
   }).id('mcwholidays:stars_wall_deco');
 
+   // Vinery
+  e.shaped('6x vinery:grapevine_stem', ['A', 'A', 'A'], {
+    A: '#minecraft:logs',
+  }).id('vinery:grapevine_stem');
+
   // Thaumon
   e.replaceInput({ id: 'thaumon:ancient_stone_bricks' }, 'thaumon:ancient_stone', 'thaumon:polished_ancient_stone');
 
   // Minecarts
   e.replaceOutput({ id: 'utilitarian:utility/hopper_minecart' }, 'minecraft:chest_minecart', 'minecraft:hopper_minecart');
   e.replaceOutput({ id: 'utilitarian:utility/tnt_minecart' }, 'minecraft:chest_minecart', 'minecraft:tnt_minecart');
-  e.replaceInput(
-    { id: 'utilitarian:utility/chest_minecart' },
-    '#c:chests',
-    Ingredient.of('#c:chests/wooden').except('expandedstorage:wood_chest')
-  );
-  e.replaceInput({ id: 'minecraft:chest_minecart' }, '#c:chests', Ingredient.of('#c:chests/wooden').except('expandedstorage:wood_chest'));
 
   // BWG
   e.replaceInput({ id: 'minecraft:crafting_table' }, '#minecraft:planks', Ingredient.of('#minecraft:planks').except('@biomeswevegone'));

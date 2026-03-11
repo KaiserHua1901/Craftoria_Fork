@@ -11,7 +11,6 @@ ServerEvents.tags('item', e => {
   // Crops & Seeds
   e.add('c:seeds/cabbage', ['farmersdelight:cabbage_seeds', 'dumplings_delight:chinese_cabbage_seeds']);
   e.add('c:seeds/tomato', 'farmersdelight:tomato_seeds');
-  e.add('c:seeds/rice', 'farmersdelight:rice');
   e.add('c:seeds/eggplant', 'dumplings_delight:eggplant_seeds');
   e.add('c:crops/garlic', 'dumplings_delight:garlic');
   e.add('c:crops/green_onion', 'dumplings_delight:greenonion');
@@ -100,6 +99,9 @@ ServerEvents.tags('item', e => {
 
   e.add('animal_pen:can_attack_pen', ['#c:tools/melee_weapon', '#c:tools/knife']);
   e.add('animal_pen:can_attack_aquarium', ['#c:tools/melee_weapon', '#c:tools/knife']);
+
+  e.add('minecraft:signs', ['ars_nouveau:archwood_sign', 'beachparty:palm_sign']);
+  e.add('minecraft:hanging_signs', ['ars_nouveau:archwood_hanging_sign', 'beachparty:palm_hanging_sign']);
 
   e.remove('minecraft:axes', ['hazennstuff:skyuscorcher']);
 
@@ -193,7 +195,9 @@ ServerEvents.tags('block', e => {
     'moderndynamics:machine_extender',
   ]);
 
-  e.add('minecraft:mineable/axe', ['mekanism:cardboard_box', '#animal_pen:animal_pens']);
+  e.add('minecraft:mineable/axe', ['mekanism:cardboard_box', '#animal_pen:animal_pens', 'ars_nouveau:archwood_sign']);
+
+  e.add('c:mineable/paxel', ['ars_nouveau:archwood_sign', 'ars_nouveau:archwood_hanging_sign']);
 
   e.add('minecraft:storage_blocks/quartz', 'minecraft:quartz_block');
 
@@ -239,9 +243,20 @@ ServerEvents.tags('block', e => {
     '@laserio',
   ]).remove([/^justdirethings:gooblock_tier.$/]);
 
-  Registry.access().getAllTags('block').forEach(tag => {
-    if (!tag.path.endsWith('_immune')) return;
-    e.add(tag, ['yigd:grave']);
+  let immuneTags = [
+    'cataclysm:clawdian_immune',
+    'cataclysm:remnant_immune',
+    'cataclysm:altar_destroy_immune',
+    'cataclysm:scylla_immune',
+    'cataclysm:ignis_immune',
+    'cataclysm:harbinger_immune',
+    'cataclysm:leviathan_immune',
+    'cataclysm:maledictus_immune',
+    'cataclysm:netherite_monstrosity_immune',
+  ];
+
+  immuneTags.forEach(tag => {
+    e.add(tag, ['yigd:grave'])
   });
 });
 
