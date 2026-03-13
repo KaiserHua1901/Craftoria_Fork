@@ -19,11 +19,15 @@ ServerEvents.recipes(e => {
     'cadmium', 'chromium', 'cupronickel', 'electrum', 'invar', 'kanthal', 'lead', 'nickel', 
     'platinum', 'silicon', 'silver', 'stainless_steel', 'steel', 'superconductor', 'tin', 
     'titanium', 'tungsten']
-    
   materials.forEach(material => {
     create.pressing()
       .itemOut(`modern_industrialization:${material}_plate`)
       .itemIn(`modern_industrialization:${material}_ingot`)
       .id(`craftoria:create/pressing/${material}_ingot_to_${material}`)
   });
+
+  create.crushing()
+    .itemOut('minecraft:gunpowder')
+    .itemIn('minecraft:flint')
+    .id('craftoria:create/crushing/flint_to_gunpowder')
 });
