@@ -55,6 +55,11 @@
 		# Default: false
 		chunk_grid: false
 		
+		# Claim mode for the chunk claiming screen
+		# Default: "freehand"
+		# Valid values: "freehand", "rectangle", "circle"
+		claim_mode: "freehand"
+		
 		# Show claimed chunks on the map
 		# Default: true
 		claimed_chunks_on_map: true
@@ -134,37 +139,37 @@
 		entity_heads: true
 		entity_icon: {
 			"minecraft:skeleton": true
-			"duckling:duck": true
-			"minecraft:enderman": true
-			"vinery:wandering_winemaker": true
-			"minecraft:parrot": true
-			"minecraft:sheep": false
-			"aquaculture:tambaqui": false
-			"aquaculture:bluegill": false
-			"artifacts:mimic": true
 			"minecraft:pig": true
-			"minecraft:glow_squid": true
-			"minecraft:bat": true
-			"minecraft:witch": true
-			"ars_nouveau:starbuncle": true
-			"aquaculture:perch": false
-			"minecraft:horse": true
-			"minecraft:squid": true
-			"irons_spellbooks:necromancer": true
+			"aquaculture:tambaqui": false
 			"minecraft:creeper": true
+			"minecraft:bat": true
+			"minecraft:parrot": true
+			"vinery:mule": true
+			"aquaculture:perch": false
 			"minecraft:spider": true
-			"minecraft:fox": true
 			"minecraft:zombie_villager": true
 			"creeperoverhaul:cave_creeper": true
-			"aquaculture:piranha": false
-			"aquaculture:arrau_turtle": false
-			"creeperoverhaul:bamboo_creeper": true
-			"minecraft:axolotl": true
+			"ars_nouveau:starbuncle": true
+			"minecraft:horse": true
+			"irons_spellbooks:necromancer": true
 			"minecraft:zombie": true
-			"minecraft:chicken": true
-			"vinery:mule": true
-			"creeperoverhaul:dripstone_creeper": true
+			"minecraft:witch": true
+			"minecraft:fox": true
 			"minecraft:cow": true
+			"vinery:wandering_winemaker": true
+			"aquaculture:arrau_turtle": false
+			"minecraft:glow_squid": true
+			"minecraft:axolotl": true
+			"minecraft:squid": true
+			"aquaculture:bluegill": false
+			"minecraft:enderman": true
+			"artifacts:mimic": true
+			"duckling:duck": true
+			"creeperoverhaul:dripstone_creeper": true
+			"minecraft:chicken": true
+			"creeperoverhaul:bamboo_creeper": true
+			"aquaculture:piranha": false
+			"minecraft:sheep": false
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -191,6 +196,7 @@
 			"ftbchunks:game_time"
 			"ftbchunks:real_time"
 			"ftbchunks:debug"
+			"seasonhud:season"
 		]
 		info_settings: { }
 		

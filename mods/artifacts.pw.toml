@@ -1,13 +1,13 @@
 name = "Artifacts"
-filename = "artifacts-neoforge-13.2.0.jar"
+filename = "artifacts-neoforge-13.2.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "01e4df6f6a0d8d73190c0fc4a5493db79fa5386c"
+hash = "8247516201418bda17ef76d5ba02a3d71698477c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7468997
+file-id = 8683747
 project-id = 312353

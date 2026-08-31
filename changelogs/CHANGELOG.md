@@ -1,3 +1,157 @@
+# Craftoria | v1.33.1
+
+_Neoforge_ 21.1.248 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.33.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.33.1.md)_
+
+### Removed Mods ❌
+
+* [Punchy! - First person animations](https://curseforge.com/projects/1374153)
+* [Yukami's Sophisticated Backpack Tab](https://curseforge.com/projects/1343253)
+
+### Bug Fixes 🪲
+
+* Incorrect max enchant power cap & oathbound relic disappearing on death `AK`
+---
+# Craftoria | v1.33.0
+
+_Neoforge_ 21.1.248 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.33.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.33.0.md)_
+
+### Changes/Improvements ⭐
+
+* Removed AIOT's in favor of paxels `AK`
+* Add neo vitae as requirement for completionist `AK`
+* Added neo vitae quest chapter `AK`
+
+### Added Mods ✅
+
+* [Animus](https://curseforge.com/projects/229664)
+* [Create Deco](https://curseforge.com/projects/509285)
+
+### Removed Mods ❌
+
+* [Rubinated Nether](https://curseforge.com/projects/1096362)
+
+### Bug Fixes 🪲
+
+* EMI not appending Mod ID names on tooltips `AK`
+---
+# Craftoria | v1.32.1
+
+_Neoforge_ 21.1.248 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.32.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.32.1.md)_
+
+### Removed Mods ❌
+
+* [Guide Shelf](https://curseforge.com/projects/1500922)
+
+### Bug Fixes 🪲
+
+* Connection issues to servers `AK`
+---
+# Craftoria | v1.32.0
+
+_Neoforge_ 21.1.248 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.32.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.32.0.md)_
+
+### Changes/Improvements ⭐
+
+* Add completionist capes to new winners `AK`
+* Disabled advanced peripherals book on spawn `AK`
+* Removed trophy of the older angler quest `AK`
+* Enable team sharing for fishes caught `AK`
+* Added Ether Gas Recipe to Chemical Reactor `KaiserHua1901`
+
+### Added Mods ✅
+
+* [Adventurer Skills \[Pufferfish's Skills\]](https://curseforge.com/projects/1397003)
+* [Ars Musique](https://curseforge.com/projects/1477190)
+* [Biolith](https://curseforge.com/projects/852512)
+* [Boss Checklist](https://curseforge.com/projects/1355708)
+* [Can't Sleep Clowns Will Eat Me](https://curseforge.com/projects/430957)
+* [Create: Hypertubes](https://curseforge.com/projects/1281336)
+* [Create: Schematic Checker](https://curseforge.com/projects/1357430)
+* [Crystal Chronicles - Iron's Spells 'n Spellbooks](https://curseforge.com/projects/1153374)
+* [Data Anchor](https://curseforge.com/projects/1203668)
+* [Dawn Of Time](https://curseforge.com/projects/312359)
+* [EMI QoL Tweaks](https://curseforge.com/projects/1623482)
+* [Enhanced Celestials 2: Core](https://curseforge.com/projects/1621796)
+* [Enhanced Celestials 2: Default Lunar Events](https://curseforge.com/projects/1621820)
+* [Enhanced Celestials 2: Shader Support](https://curseforge.com/projects/1621851)
+* [Enigmatic Arcana ](https://curseforge.com/projects/1371571)
+* [Gaze - A Malum Addon](https://curseforge.com/projects/1273454)
+* [Invasive Optimizations](https://curseforge.com/projects/1528432)
+* [Lodestone](https://curseforge.com/projects/616457)
+* [Malum](https://curseforge.com/projects/484064)
+* [Multi Builder Tool](https://curseforge.com/projects/827020)
+* [Neo Vitae](https://curseforge.com/projects/1404763)
+* [Oathbound Relics](https://curseforge.com/projects/1503076)
+* [Punchy! - First person animations](https://curseforge.com/projects/1374153)
+* [Rechiseled: Applied Energistics 2](https://curseforge.com/projects/1483822)
+* [Sodium](https://curseforge.com/projects/394468)
+* [Sodium Extra](https://curseforge.com/projects/447673)
+* [Spectral Decorations](https://curseforge.com/projects/990498)
+* [Wireless Terminal Color!](https://curseforge.com/projects/1602480)
+
+### Removed Mods ❌
+
+* [Cable Facades](https://curseforge.com/projects/1140577)
+* [Embeddium](https://curseforge.com/projects/908741)
+* [Flat Bedrock (Forge / Fabric)](https://curseforge.com/projects/398623)
+* [Monocle](https://curseforge.com/projects/1007288)
+* [Re:Animal](https://curseforge.com/projects/1387943)
+
+### Bug Fixes 🪲
+
+* Balancing changes to cataclysm bosses/items not applying `AK`
+* 'Farm & Charm' tomato seeds missing from `c:seeds/tomato` tag `Joe Clack`
+* Fixed Knife unification from disabling Spectrums Multitools `Phantom`
+* (work-around) disable post-process-shaders in Spectrum `SubordinalBlue`
+* Incorrect MI overlay textures used `AK`
+---
+# Craftoria | v1.31.0
+
+_Neoforge_ 21.1.230 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.31.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.31.0.md)_
+
+### Changes/Improvements ⭐
+
+* Updated completionist quest chapter background `AK`
+* Improved player animations `AK`
+* More fishing trophies, more quests! `AK`
+* Disabled starcatcher book on spawn `AK`
+* Disabled Chromatic Aberration module `AK`
+* Split MI quests into 3 chapters `SubordinalBlue`
+* Added all MI plate to create press `Kaiser`
+
+### Added Mods ✅
+
+* [Delight Lib](https://curseforge.com/projects/1531135)
+* [HazentouveLib](https://curseforge.com/projects/1528722)
+* [Iron's Lib](https://curseforge.com/projects/1492763)
+
+### Added Resource Packs 🎨
+
+* [Craftoria Chinese Translation Resource](https://curseforge.com/projects/1484077)
+
+### Removed Mods ❌
+
+* [Xaero's Maps x Waystones](https://curseforge.com/projects/1340197)
+---
+# Craftoria | v1.30.0
+
+_Neoforge_ 21.1.219 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.30.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.30.0.md)_
+
+### Changes/Improvements ⭐
+
+* Disable filled Mekanism tanks in creative/emi `Phantom`
+* Added Ender's Cataclysm trofers `JohnTrinca`
+
+### Added Mods ✅
+
+* [Revelationary](https://curseforge.com/projects/656526)
+* [Spectrum](https://curseforge.com/projects/556967)
+
+### Bug Fixes 🪲
+
+* Fixed cataclysm bosses destroying graves(again) `Phantom`
+* Add missing sign tags `exefer`
+---
 # Craftoria | v1.29.0
 
 _Neoforge_ 21.1.215 | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.29.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.29.0.md)_

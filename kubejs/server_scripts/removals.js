@@ -33,6 +33,12 @@ const globalItemRemovals = [
   'xycraft_machines:aluminum_clump',
   'create:crushed_raw_aluminum',
   'create:crushed_raw_platinum',
+  'actuallyadditions:wooden_aiot',
+  'actuallyadditions:stone_aiot',
+  'actuallyadditions:iron_aiot',
+  'actuallyadditions:gold_aiot',
+  'actuallyadditions:diamond_aiot',
+  'actuallyadditions:netherite_aiot'
 ];
 
 /** @type {[{id: Special.Item, alt?: string, altId?: Special.Item}]} */
@@ -66,7 +72,6 @@ ServerEvents.recipes(event => {
     'create:crushing/raw_platinum',
     'create:crushing/raw_platinum_block',
     'xycraft_machines:compat/mek/compressor/aluminum_sheet_temp',
-    /rubinated_nether:bronze/,
     'minecraft:blaze_rod_from_smelting_bronze_rod'
   ];
 
@@ -307,7 +312,9 @@ ServerEvents.generateData('after_mods', event => {
     'create:crushing/sculk_stone_coal_ore',
     'create:cutting/stripped_echo_log',
     'mekaweapons:module_arrowvelocity_unit',
-    'mechtrowel:wand_upgrade'
+    'mechtrowel:wand_upgrade',
+    // Recipes removed for balancing / unification
+    'farm_and_charm:seeds_tomato'
   ];
 
   /** @type {string[]} */
