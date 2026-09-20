@@ -158,7 +158,11 @@ ServerEvents.tags('item', e => {
 
     'replication:matter_tank',
 
-    'xycraft_machines:foil'
+    'xycraft_machines:foil',
+
+    'apothic_enchanting:flimsy_ender_lead',
+    'apothic_enchanting:ender_lead',
+    'apothic_enchanting:occult_ender_lead',
   ].concat(replicatorBlacklist);
 
   /**

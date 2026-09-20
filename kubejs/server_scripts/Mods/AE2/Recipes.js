@@ -38,17 +38,42 @@ ServerEvents.recipes(event => {
     })
     .id('bigger_ae2:advanced_source_cell_housing');
 
+  event
+    .shaped('bigger_ae2:digital_singularity_cell_component', ['ASA', 'QGQ', 'AQA'], {
+      A: 'megacells:accumulation_processor',
+      S: 'ae2:spatial_cell_component_128',
+      Q: 'advanced_ae:quantum_storage_component',
+      G: 'ae2:quartz_vibrant_glass',
+    })
+    .id('bigger_ae2:digital_singularity_cell_component');
+
   event.replaceInput({ id: 'advanced_ae:quantum_helmet' }, 'minecraft:netherite_helmet', 'mekanism:mekasuit_helmet');
   event.replaceInput({ id: 'advanced_ae:quantum_chest' }, 'minecraft:netherite_chestplate', 'mekanism:mekasuit_bodyarmor');
   event.replaceInput({ id: 'advanced_ae:quantum_leggings' }, 'minecraft:netherite_leggings', 'mekanism:mekasuit_pants');
   event.replaceInput({ id: 'advanced_ae:quantum_boots' }, 'minecraft:netherite_boots', 'mekanism:mekasuit_boots');
+
+  event.replaceInput({ id: 'megacells:cells/standard/bulk_item_cell' }, 'megacells:bulk_cell_component', 'bigger_ae2:digital_singularity_cell_component');
+
+  event.replaceInput({ id: 'bigger_ae2:quantum_fluid_storage_cell' }, 'bigger_ae2:quantum_cell_component', 'advanced_ae:quantum_storage_component');
+  event.replaceInput({ id: 'bigger_ae2:quantum_chemical_storage_cell' }, 'bigger_ae2:quantum_cell_component', 'advanced_ae:quantum_storage_component');
+  event.replaceInput({ id: 'bigger_ae2:quantum_source_storage_cell' }, 'bigger_ae2:quantum_cell_component', 'advanced_ae:quantum_storage_component');
+
+  event.remove({ id: 'bigger_ae2:quantum_cell_component' });
+  event.shapeless('advanced_ae:quantum_storage_component', 'bigger_ae2:quantum_cell_component');
+
+  event.remove({ id: 'megacells:crafting/bulk_cell_component' });
+  event.shapeless('bigger_ae2:digital_singularity_cell_component', 'megacells:bulk_cell_component');
+
+  event.replaceInput({ id: 'advanced_ae:flight_card' }, 'minecraft:elytra', 'mekanism:module_elytra_unit');
+  event.replaceInput({ id: 'advanced_ae:flight_card' }, 'minecraft:tnt', 'eternal_starlight:aetherstrike_rocket');
+  event.replaceInput({ id: 'advanced_ae:flight_card' }, 'minecraft:feather', 'modern_industrialization:electronic_circuit');
 
   ae2.crystalAssembler('advanced_ae:adv_pattern_provider_capacity_upgrade', [
     '#ae2:metal_ingots',
     '3x ae2:capacity_card',
     '3x minecraft:crafting_table',
     'extendedae:concurrent_processor',
-    '6x #ae2:glass_cable'
+    '6x #ae2:glass_cable',
   ], null, 'advanced_ae:eaelargeappupgrade');
 
   // ae2.crystalAssembler('expandedae:exp_pattern_provider', [
@@ -80,7 +105,7 @@ ServerEvents.recipes(event => {
   // added reversable recipes for dyed ae2 cables, covered and not. - inno
   const reversablePairs = [
     { a: 'smart_cable', b: 'smart_dense_cable', sCount: 4, dCount: 1 },
-    { a: 'covered_cable', b: 'covered_dense_cable', sCount: 4, dCount: 1 }
+    { a: 'covered_cable', b: 'covered_dense_cable', sCount: 4, dCount: 1 },
   ];
 
   Color.DYE.forEach(color => {

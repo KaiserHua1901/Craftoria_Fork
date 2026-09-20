@@ -109,6 +109,16 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "extendedae_plus": {
+    "labeled_wireless_component": true,
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
+  },
   "tesseract": {
     "tesseract": true,
     "remove_default": true
@@ -143,6 +153,9 @@
     "milk_jar": true,
     "toaster": true
   },
+  "beer": {
+    "beer": true
+  },
   "barbequesdelight": {
     "grill": true
   },
@@ -175,12 +188,19 @@
     "camo": true,
     "semiblock": true
   },
+  "logisticsnetworks": {
+    "logistics_node_entity": true,
+    "node_attached": true
+  },
   "apotheosis": {
     "adventure": true
   },
   "modern_industrialization": {
     "overclock": true,
     "pipe": true
+  },
+  "ars_zero": {
+    "entity_mana": true
   },
   "occultism": {
     "foliot": true,

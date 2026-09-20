@@ -1,13 +1,13 @@
 name = "Craftoria"
 author = "TeamAOE"
-version = "1.33.1"
+version = "1.37.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "302d15696f564f54a099d66a30d6b0c0fbaf00018558c1f80b77c5fcda247ead"
+hash = "16d8bc76d7b6e39e5631cfe67952c4b467cc5c746cf55401ca80bc8def4c1397"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.248"
+neoforge = "21.1.249"
