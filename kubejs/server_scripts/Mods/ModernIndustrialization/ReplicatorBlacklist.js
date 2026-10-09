@@ -63,8 +63,6 @@ ServerEvents.tags('item', e => {
     '#supplementaries:presents',
     '#supplementaries:trapped_presents',
     'supplementaries:jar',
-
-    'refurbished_furniture:package',
   ];
 
   /**
